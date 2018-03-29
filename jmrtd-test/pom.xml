@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.idcard</groupId>
+    <artifactId>idcard</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- https://mvnrepository.com/artifact/org.jmrtd/jmrtd -->
+    <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/org.jmrtd/jmrtd -->
+        <dependency>
+            <groupId>org.jmrtd</groupId>
+            <artifactId>jmrtd</artifactId>
+            <version>0.6.5</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/net.sf.scuba/scuba-smartcards -->
+        <dependency>
+            <groupId>net.sf.scuba</groupId>
+            <artifactId>scuba-smartcards</artifactId>
+            <version>0.0.16</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sf.scuba</groupId>
+            <artifactId>scuba-sc-j2se</artifactId>
+            <version>0.0.16</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on -->
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>1.59</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.ejbca.cvc/cert-cvc -->
+        <dependency>
+            <groupId>org.ejbca.cvc</groupId>
+            <artifactId>cert-cvc</artifactId>
+            <version>1.4.6</version>
+        </dependency>
+
+
+    </dependencies>
+</project>
